@@ -5,9 +5,17 @@
 }
 
 .baslik {
+    font-size: 100px;
     text-align: center;
-    margin: 20px;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
 }
+
+
+
+
 
 body {
     font-family: "Nunito", sans-serif;
