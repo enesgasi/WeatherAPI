@@ -5,7 +5,9 @@ var name = document.querySelector('.name');
 var desc = document.querySelector('.desc');
 var temp = document.querySelector('.temp');
 
-const apiKey = '846284856ea03c53be2e82d460d45b4e'
+
+const apiKey = '846284856ea03c53be2e82d460d45b4e';
+
 
 button.addEventListener('click', function(){
     fetch('https://api.openweathermap.org/data/2.5/weather?lat='+inputValue.value+'&lon='+inputValue2.value+'&appid='+ apiKey)
@@ -19,11 +21,12 @@ button.addEventListener('click', function(){
         name.innerHTML = nameValue;
         temp.innerHTML = tempValue;
         desc.innerHTML = descValue;
-
+       
+        console.log(data);
     })
     
-
-
-.catch(err => alert("Unrecognized Coordinates..."))  
+.catch(err => alert("Unrecognized Coordinates..."));  
 
 })
+
+
