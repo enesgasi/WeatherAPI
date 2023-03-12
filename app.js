@@ -8,7 +8,7 @@ var temp = document.querySelector('.temp');
 const apiKey = '846284856ea03c53be2e82d460d45b4e'
 
 button.addEventListener('click', function(){
-    fetch('https://api.openweathermap.org/data/2.5/weather?lat='+inputValue.value+'&lon=+'+inputValue2.value+'&appid='+ apiKey)
+    fetch('https://api.openweathermap.org/data/2.5/weather?lat='+inputValue.value+'&lon='+inputValue2.value+'&appid='+ apiKey)
     .then(Response => Response.json())
     .then(data => console.log(data))
     
