@@ -13,7 +13,7 @@ body {
 .baslik {
     font-size: 100px;
     text-align: center;
-    margin: 10px;
+    margin: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
 }
 
@@ -41,13 +41,14 @@ input[type="text"]{
 
 input[type="submit"]{
     height: 50px;
-    width: 70px;
+    width: 110px;
     background: #e7e7e7;
     font-family: "Nunito", sans-serif;
     font-weight: bold;
     font-size: 20px;
     border: none;
-    border-radius: 20px;
+    border-radius: 5px;
+    margin: 20px;
 
 }
 
